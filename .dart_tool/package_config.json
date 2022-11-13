@@ -146,13 +146,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "dc_datatable_paginator",
+      "name": "yjy_dc_datatable_paginator",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-11-13T17:05:17.132242Z",
+  "generated": "2022-11-13T17:15:36.260740Z",
   "generator": "pub",
   "generatorVersion": "2.18.1"
 }
