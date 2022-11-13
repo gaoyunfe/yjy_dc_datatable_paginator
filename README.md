@@ -1,2 +1,0 @@
-# yjy_dc_datatable_paginator
-yjy_dc_datatable_paginator
