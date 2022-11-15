@@ -131,10 +131,15 @@ class _DcDataTableState extends State<DcDataTable> {
                     showCheckboxColumn: widget.showCheckboxColumn,
                     headingTextStyle: const TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      // color: Colors.white,
+                      color: Colors.black
                     ),
+                    // headingRowColor: MaterialStateColor.resolveWith(
+                    //   (states) => Theme.of(context).colorScheme.primary,
+                    // ),
                     headingRowColor: MaterialStateColor.resolveWith(
-                      (states) => Theme.of(context).colorScheme.primary,
+                          (states) => Color.fromRGBO(
+                          238, 240, 243, 1),
                     ),
                     sortAscending: widget.controller.sortAscending,
                     sortColumnIndex: widget.controller.sortColumnIndex,
